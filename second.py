@@ -18,6 +18,7 @@ while True:
             print('Trying to insert in wrong position')
  #Update item
     elif task=='update':
+        print('language', language_list)
         pos = int(input('Enter position of Update:'))
         if  pos <= len(language_list):
             value = input('Enter The value:')
